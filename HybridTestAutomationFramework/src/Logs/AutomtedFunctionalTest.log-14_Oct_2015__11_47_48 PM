@@ -1,0 +1,7 @@
+[INFO] 2015-10-14 23:47:44,373 com.htaf.utility.MasterDriver readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-14 23:47:46,131 com.htaf.utility.MasterDriver readYesTestCases - Create New Status Update
+[INFO] 2015-10-14 23:47:46,243 Keywords openBrowser - Opening Chrome Browser
+[ERROR] 2015-10-14 23:47:46,405 Keywords openBrowser - An Error Occurred: The driver executable does not exist: E:\GHub\HybridTestAutomationFramework\src\test\java\ChromeDriver\chromedriver.exe
+[INFO] 2015-10-14 23:47:47,756 Keywords navigate - Navigating to URL
+[ERROR] 2015-10-14 23:47:47,757 Keywords navigate - An Error Occurred: null
+[INFO] 2015-10-14 23:47:48,041 Keywords setText - CLicking on the object specified

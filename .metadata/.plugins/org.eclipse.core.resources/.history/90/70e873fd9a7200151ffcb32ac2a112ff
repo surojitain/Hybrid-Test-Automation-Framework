@@ -1,0 +1,135 @@
+package com.htaf.libraryfunctions;
+
+public class TestReportCreator {
+	
+	public static void  CreateTestReportSheet () {
+		
+		try {
+			FileOutputStream fileOut = new FileOutputStream(System.getProperty("user.dir") + 
+		    		"/src/test/java/Reports Test Results/Test Report.xls");
+			HSSFWorkbook workbook = new HSSFWorkbook();
+			HSSFSheet worksheet = workbook.createSheet("Test Results");
+			worksheet.setDisplayGridlines(true);
+			worksheet.setDefaultColumnWidth(25);
+
+			// index from 0,0... cell A1 is cell(0,0)
+			HSSFRow row1 = worksheet.createRow((short) 0);
+
+			
+			
+			HSSFCell cellA1 = row1.createCell((short) 0);
+			cellA1.setCellValue("Test Case");
+			HSSFCellStyle cellStyle = workbook.createCellStyle();
+			cellStyle.setFillForegroundColor(HSSFColor.GOLD.index);
+			cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+			cellA1.setCellStyle(cellStyle);
+
+			HSSFCell cellB1 = row1.createCell((short) 1);
+			cellB1.setCellValue("Test Description");
+			cellStyle = workbook.createCellStyle();
+			cellStyle.setFillForegroundColor(HSSFColor.LIGHT_CORNFLOWER_BLUE.index);
+			cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+			cellB1.setCellStyle(cellStyle);
+			
+			HSSFCell cellC1 = row1.createCell((short) 2);
+			cellC1.setCellValue("Test Result");
+			cellStyle = workbook.createCellStyle();
+			cellStyle.setFillForegroundColor(HSSFColor.LIGHT_GREEN.index);
+			cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+			cellC1.setCellStyle(cellStyle);
+
+			HSSFCell cellD1 = row1.createCell((short) 3);
+			cellD1.setCellValue("ScreenShots");
+			cellStyle = workbook.createCellStyle();
+			cellStyle.setFillForegroundColor(HSSFColor.LAVENDER.index);
+			cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+			cellD1.setCellStyle(cellStyle);
+
+/*			HSSFCell cellE1 = row1.createCell((short) 4);
+			cellE1.setCellValue(new Date());
+			cellStyle = workbook.createCellStyle();
+			cellStyle.setDataFormat(HSSFDataFormat
+					.getBuiltinFormat("m/d/yy h:mm"));
+			cellD1.setCellStyle(cellStyle);*/
+
+			workbook.write(fileOut);
+			fileOut.flush();
+			fileOut.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+		
+	public static void setTestReportData (int i, String testCaseName, String testCaseDescription, String TestResult) {
+		
+		try {
+			FileOutputStream fileOut = new FileOutputStream(System.getProperty("user.dir") + 
+		    		"/src/Reports Test Results/Test Report.xls");
+			HSSFWorkbook workbook = new HSSFWorkbook();
+			HSSFSheet worksheet = workbook.createSheet("Test Results");
+			worksheet.setDisplayGridlines(true);
+			worksheet.setDefaultColumnWidth(25);
+
+			// index from 0,0... cell A1 is cell(0,0)
+			HSSFRow row1 = worksheet.createRow((short) 0);
+			
+			//int i = 2; 
+			
+				//Inserting data into Test Case column
+				HSSFCell cellAi = row1.createCell((short) 0);
+				cellAi.setCellValue("Test Case");
+				HSSFCellStyle cellStyle = workbook.createCellStyle();
+				cellStyle.setFillForegroundColor(HSSFColor.GOLD.index);
+				cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+				cellAi.setCellStyle(cellStyle);
+	
+				//Inserting data into Test Description column
+				HSSFCell cellBi = row1.createCell((short) 1);
+				cellBi.setCellValue("Test Description");
+				cellStyle = workbook.createCellStyle();
+				cellStyle.setFillForegroundColor(HSSFColor.LIGHT_CORNFLOWER_BLUE.index);
+				cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+				cellBi.setCellStyle(cellStyle);
+				
+				//Inserting data into Test Result column
+				HSSFCell cellCi = row1.createCell((short) 2);
+				cellCi.setCellValue("Test Result");
+				cellStyle = workbook.createCellStyle();
+				cellStyle.setFillForegroundColor(HSSFColor.LIGHT_GREEN.index);
+				cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+				cellCi.setCellStyle(cellStyle);
+	
+				//Inserting data into Screenshot column
+				HSSFCell cellDi = row1.createCell((short) 3);
+				cellDi.setCellValue("ScreenShots");
+				cellStyle = workbook.createCellStyle();
+				cellStyle.setFillForegroundColor(HSSFColor.LAVENDER.index);
+				cellStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+				cellDi.setCellStyle(cellStyle);
+		
+
+			
+					
+
+/*			HSSFCell cellE1 = row1.createCell((short) 4);
+			cellE1.setCellValue(new Date());
+			cellStyle = workbook.createCellStyle();
+			cellStyle.setDataFormat(HSSFDataFormat
+					.getBuiltinFormat("m/d/yy h:mm"));
+			cellD1.setCellStyle(cellStyle);*/
+
+			workbook.write(fileOut);
+			fileOut.flush();
+			fileOut.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

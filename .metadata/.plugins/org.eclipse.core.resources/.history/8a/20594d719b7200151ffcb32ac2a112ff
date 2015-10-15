@@ -1,0 +1,21 @@
+package com.htaf.libraryfunctions;
+
+public class ScreenShotOnFailure {
+	
+	public static void getScreenshot(String testCaseName, WebDriver driver) {
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		DateFormat dateFormat = new SimpleDateFormat("dd_MMM_yyyy__hh_mm_ss aa");
+		String destDir = System.getProperty("user.dir") + "/src/test/java/Screenshots";
+		new File(destDir).mkdirs();
+		String destFile = testCaseName + " (" + dateFormat.format(new Date()) + ").png";
+
+        try {
+			FileUtils.copyFile(scrFile, new File(destDir + "/" + destFile));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		//Reporter.setEscapeHtml(false);
+		//Reporter.log("Saved <a href=../screenshots/" + destFile + ">Screenshot</a>");
+	}
+
+}

@@ -1,0 +1,35 @@
+[INFO] 2015-10-13 19:53:03,776 Keywords navigate - Navigating to URL
+[INFO] 2015-10-13 19:53:09,259 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 19:53:09,889 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 19:53:10,492 Keywords click - CLicking on the object specified
+[INFO] 2015-10-13 19:53:10,972 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:53:14,336 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:53:17,561 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-13 19:53:19,263 Keywords click - An Error Occurred: invalid selector: Unable to locate an element with the xpath expression //span[starts-with(., \"" + POST + "\")] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[starts-with(., \"" + POST + "\")]' is not a valid XPath expression.
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir20696_12485}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1e7f1649731149244ac432584e5aa5a9
+*** Element info: {Using=xpath, value=//span[starts-with(., \"" + POST + "\")]}
+[INFO] 2015-10-13 19:53:19,467 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:53:22,907 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-13 19:53:23,570 Keywords click - An Error Occurred: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir20696_12485}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1e7f1649731149244ac432584e5aa5a9
+*** Element info: {Using=xpath, value=}
+[INFO] 2015-10-13 19:53:23,746 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:53:26,890 Keywords click - CLicking on the object specified

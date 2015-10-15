@@ -1,0 +1,11 @@
+# Log levels
+log4j.rootLogger = INFO, rollingAppender
+
+# Appender Configuration
+log4j.appender.rollingAppender=org.apache.log4j.DailyRollingFileAppender
+# Pattern to output the caller's file name with date
+log4j.appender.rollingAppender.DatePattern='-'dd_MMM_yyyy__hh_mm_ss aa
+# Path and file name to store the log file
+log4j.appender.rollingAppender.File=./src/test/java/Logs/AutomtedFunctionalTest.log
+log4j.appender.rollingAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.rollingAppender.layout.ConversionPattern=[%p] %d %c %M - %m%n

@@ -1,0 +1,5 @@
+package com.htaf.libraryfunctions;
+
+public class ScreenShotOnFailure {
+
+}

@@ -1,0 +1,12 @@
+[INFO] 2015-10-15 00:25:02,292 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 00:25:03,006 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 00:25:03,334 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 00:25:03,585 Keywords pause - Pause function executed
+[INFO] 2015-10-15 00:25:06,815 Keywords pause - Pause function executed
+[INFO] 2015-10-15 00:25:09,930 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 00:25:10,149 Keywords pause - Pause function executed
+[INFO] 2015-10-15 00:25:13,247 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 00:25:13,838 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 00:25:14,942 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 00:25:15,363 Keywords click - The click element is not found or the object type is incorrect
+[INFO] 2015-10-15 00:25:15,519 Keywords quitBrowser - Closing the browser

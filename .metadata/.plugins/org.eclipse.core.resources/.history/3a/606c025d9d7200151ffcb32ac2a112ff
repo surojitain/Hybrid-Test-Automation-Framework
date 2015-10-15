@@ -1,0 +1,14 @@
+[INFO] 2015-10-13 20:10:23,914 com.hybird.utility.ExcelDecissionMaker readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-13 20:10:25,243 com.hybird.utility.ExcelDecissionMaker readYesTestCases - Authentication - Login
+[INFO] 2015-10-13 20:10:25,402 Keywords openBrowser - Opening Chrome Browser
+[INFO] 2015-10-13 20:10:32,266 Keywords navigate - Navigating to URL
+[INFO] 2015-10-13 20:10:38,349 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 20:10:39,513 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 20:10:40,060 Keywords click - CLicking on the object specified
+[INFO] 2015-10-13 20:10:40,439 Keywords pause - Pause function executed
+[INFO] 2015-10-13 20:10:43,723 Keywords pause - Pause function executed
+[INFO] 2015-10-13 20:10:46,886 Keywords navigate - Navigating to URL
+[INFO] 2015-10-13 20:10:47,601 Keywords pause - Pause function executed
+[INFO] 2015-10-13 20:10:50,779 Keywords click - CLicking on the object specified
+[INFO] 2015-10-13 20:10:51,650 Keywords pause - Pause function executed
+[INFO] 2015-10-13 20:10:54,795 Keywords click - CLicking on the object specified

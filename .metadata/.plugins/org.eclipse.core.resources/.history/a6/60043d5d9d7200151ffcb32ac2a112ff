@@ -1,0 +1,30 @@
+[INFO] 2015-10-13 19:13:04,129 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 19:13:04,656 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-13 19:13:05,136 Keywords click - CLicking on the object specified
+[INFO] 2015-10-13 19:13:05,435 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:13:08,641 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-13 19:13:10,276 Keywords click - An Error Occurred: invalid element state: Failed to execute 'querySelector' on 'Document': '//span[text()='POST']' is not a valid selector.
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 540 milliseconds
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir20968_11271}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e8532a2add937a458b39f60df1ebd8c1
+*** Element info: {Using=css selector, value=//span[text()='POST']}
+[INFO] 2015-10-13 19:13:10,404 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:13:13,755 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-13 19:13:14,304 Keywords click - An Error Occurred: no such element
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.1', revision: 'd80083d8f7b0b0319976ef9712f7a2b531abaceb', time: '2015-10-08 14:16:53'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir20968_11271}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e8532a2add937a458b39f60df1ebd8c1
+*** Element info: {Using=xpath, value=/html/body/div[8]/div[2]/div/div[1]/i/a}
+[INFO] 2015-10-13 19:13:14,481 Keywords pause - Pause function executed
+[INFO] 2015-10-13 19:13:17,681 Keywords click - CLicking on the object specified

@@ -1,0 +1,4 @@
+[INFO] 2015-10-13 19:12:49,544 com.hybird.utility.ExcelDecissionMaker readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-13 19:12:51,192 com.hybird.utility.ExcelDecissionMaker readYesTestCases - Authentication - Login
+[INFO] 2015-10-13 19:12:51,275 Keywords openBrowser - Opening Chrome Browser
+[INFO] 2015-10-13 19:12:58,373 Keywords navigate - Navigating to URL
