@@ -19,6 +19,7 @@
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="HybridTestAutomationFramework\Executable.jar"/>
 			<item value="HybridTestAutomationFramework/Executable.jar"/>
 			<item value="E:\GHub\ExecutableJar\Executable.jar"/>
 		</list>

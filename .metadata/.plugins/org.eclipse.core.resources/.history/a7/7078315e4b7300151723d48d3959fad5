@@ -1,0 +1,37 @@
+[INFO] 2015-10-15 20:13:10,000 com.htaf.utility.MasterDriver readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-15 20:13:12,516 com.htaf.utility.MasterDriver readYesTestCases - Create New Status Update
+[INFO] 2015-10-15 20:13:12,638 Keywords openBrowser - Opening Chrome Browser
+[INFO] 2015-10-15 20:13:23,279 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 20:13:32,418 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:13:33,551 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:13:34,048 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:13:34,315 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:13:37,827 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:13:41,179 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 20:13:44,602 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:13:47,886 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:13:48,540 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:13:49,087 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:13:49,334 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:13:52,889 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 20:13:53,946 Keywords click - An Error Occurred: unknown error: Element is not clickable at point (267, 59). Other element would receive the click: <div class="ui-widget-overlay ui-front"></div>
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir14672_29656}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7a47d91540f6e3caaa3357a4c51f8358
+[ERROR] 2015-10-15 20:13:54,491 Keywords isTextPresent - An error orrcured: no such element
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir14672_29656}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7a47d91540f6e3caaa3357a4c51f8358
+*** Element info: {Using=xpath, value=//*[@id="sign_in_form"]/h1}
+[INFO] 2015-10-15 20:13:54,624 Keywords quitBrowser - Closing the browser

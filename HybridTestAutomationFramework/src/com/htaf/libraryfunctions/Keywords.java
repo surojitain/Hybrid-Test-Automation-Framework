@@ -83,11 +83,17 @@ public class Keywords {
 			else if (objectType.equalsIgnoreCase("NAME")) {
 				driver.findElement(By.name(object)).click();
 			}
-			else if (objectType.equalsIgnoreCase("LINK TEXT")) {
+			else if (objectType.equalsIgnoreCase("LINK")) {
 				driver.findElement(By.linkText(object)).click();
 			}
 			else if (objectType.equalsIgnoreCase("CLASS")) {
-				//driver.findElement(By.class(object)).click();
+				driver.findElement(By.className(object)).click();
+			}
+			else if (objectType.equalsIgnoreCase("TAG")) {
+				driver.findElement(By.tagName(object)).click();
+			}
+			else if (objectType.equalsIgnoreCase("PARTIAL LINK")) {
+				driver.findElement(By.partialLinkText(object)).click();
 			}
 			else {
 

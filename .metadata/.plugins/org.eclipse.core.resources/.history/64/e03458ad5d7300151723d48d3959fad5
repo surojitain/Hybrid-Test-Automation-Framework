@@ -1,0 +1,4 @@
+[INFO] 2015-10-15 20:26:45,593 com.htaf.utility.MasterDriver readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-15 20:26:47,033 com.htaf.utility.MasterDriver readYesTestCases - Create New Status Update
+[INFO] 2015-10-15 20:26:47,129 Keywords openBrowser - Opening Chrome Browser
+[INFO] 2015-10-15 20:26:55,904 Keywords navigate - Navigating to URL

@@ -1,0 +1,15 @@
+[INFO] 2015-10-15 20:15:29,871 com.htaf.utility.MasterDriver readYesModules - Reading all the modules which have run mode Yes.
+[INFO] 2015-10-15 20:15:31,437 com.htaf.utility.MasterDriver readYesTestCases - Create New Status Update
+[INFO] 2015-10-15 20:15:31,537 Keywords openBrowser - Opening Chrome Browser
+[INFO] 2015-10-15 20:15:38,127 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 20:15:45,925 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:15:46,651 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:15:47,181 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:15:47,525 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:15:50,971 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:15:54,131 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 20:15:55,148 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:15:58,310 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:15:58,804 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:15:59,592 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:15:59,891 Keywords pause - Pause function executed

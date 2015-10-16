@@ -154,18 +154,11 @@ public class MasterDriver {
 				}
 				
 				else if (testModuleName.equalsIgnoreCase("PAUSE")) {
-					//String pauseValue;
-					//pauseValue = datatableTestSteps.getCellData("Test Steps", testStepsDataXCoordinate + 3, testStepsDataYCoordinate);
-					String testStepResult = oKeywords.pause(testCaseNames, "3");
+					String pauseValue;
+					pauseValue = datatableTestSteps.getCellData("Test Steps", testStepsDataXCoordinate + 3, testStepsDataYCoordinate);
+					String testStepResult = oKeywords.pause(testCaseNames, pauseValue);
 					
 					datatableTestSteps.setCellData("Test Steps", "I", testStepsDataYCoordinate, testStepResult);
-					
-					/*	try {
-						datatableTestSteps.setCellData("Test Steps", "I", testStepsDataYCoordinate, testStepResult);
-					} catch (Exception e) {
-						ScreenShotOnFailure.getScreenshot("readTestSteps", driver);
-						logger.error("An Error Occurred: " + e.getMessage());
-					}*/
 
 				}
 				

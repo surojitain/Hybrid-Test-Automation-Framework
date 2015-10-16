@@ -1,0 +1,66 @@
+[INFO] 2015-10-15 20:31:03,443 Keywords navigate - Navigating to URL
+[INFO] 2015-10-15 20:31:10,880 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:31:12,037 Keywords setText - CLicking on the object specified
+[INFO] 2015-10-15 20:31:12,641 Keywords click - CLicking on the object specified
+[INFO] 2015-10-15 20:31:13,083 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:31:16,246 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 20:31:17,655 Keywords click - An Error Occurred: unknown error: Compound class names not permitted
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 712 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir13640_22535}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfde7eec486fc8a6fefcd2a2f91971c1
+*** Element info: {Using=class name, value=btn-large open-post primary-btn pull-right}
+[INFO] 2015-10-15 20:31:17,816 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:31:21,090 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 20:31:21,557 Keywords click - An Error Occurred: no such element
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir13640_22535}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfde7eec486fc8a6fefcd2a2f91971c1
+*** Element info: {Using=xpath, value=//*[@id="post-generic"]/a/i}
+[INFO] 2015-10-15 20:31:21,721 Keywords setText - CLicking on the object specified
+[ERROR] 2015-10-15 20:31:22,476 Keywords setText - An Error Occurred: no such element
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 433 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir13640_22535}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfde7eec486fc8a6fefcd2a2f91971c1
+*** Element info: {Using=xpath, value=//*[@id="statusUpdate"]/div[2]/div[1]/div[1]/div[1]/textarea}
+[INFO] 2015-10-15 20:31:22,594 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 20:31:22,898 Keywords click - An Error Occurred: unknown error: Compound class names not permitted
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir13640_22535}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfde7eec486fc8a6fefcd2a2f91971c1
+*** Element info: {Using=class name, value=post-status primary-btn}
+[INFO] 2015-10-15 20:31:23,003 Keywords pause - Pause function executed
+[INFO] 2015-10-15 20:31:26,574 Keywords click - CLicking on the object specified
+[ERROR] 2015-10-15 20:31:27,679 Keywords isTextPresent - An error orrcured: no such element
+  (Session info: chrome=45.0.2454.101)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 84 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'Surojit', ip: '192.168.1.150', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\SUROJI~1\AppData\Local\Temp\scoped_dir13640_22535}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=45.0.2454.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cfde7eec486fc8a6fefcd2a2f91971c1
+*** Element info: {Using=xpath, value=//*[@id="sign_in_form"]/h1}
+[INFO] 2015-10-15 20:31:27,848 Keywords quitBrowser - Closing the browser
